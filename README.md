@@ -1,5 +1,5 @@
 # PI_3
-Practical assignment for the second module of the discipline "Software Engineering" UrFU
+Practical assignment for the third module of the discipline "Software Engineering" UrFU
 
 ## TranslaterML(API)
 
