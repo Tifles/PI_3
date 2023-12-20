@@ -5,15 +5,18 @@ Practical assignment for the third module of the discipline "Software Engineerin
 
 ### Launching the application
 
-To run the application, you need to install the dependencies and run the streamlet:
+To run the application, you need to install the dependencies and run the uvicorn:
  - Installing dependencies
 ```bash
 pip install -r requirements.txt
 ```
- - run the application
+ - run the application (Linux)
 ```bash
 uvicorn  app:app
-(for Windows: python -m uvicorn  app:app)
+```
+- run the application (Windows)
+```bash
+python -m uvicorn  app:app
 ```
 #### The following ready-made models were used:
 Helsinki-NLP/opus-mt-en-ru     
@@ -27,20 +30,23 @@ Helsinki-NLP/Opus-mt-ru-en
   address = {Lisbon, Portugal}
 
 # PI_3
-Практическое задание по пятому модулю дисциплины "Программная инженерия" УрФУ
+Практическое задание по третьему модулю дисциплины "Программная инженерия" УрФУ
 
 ### Запуск приложения
 
-Чтобы запустить приложение, вам необходимо установить зависимости и запустить streamlet:
+Чтобы запустить приложение, вам необходимо установить зависимости и запустить uvicorn:
 
  - Установка зависимостей
 ```bash
 pip install -r requirements.txt
 ```
- - Запуск приложения
+ - Запуск приложения (Linux)
 ```bash
 uvicorn  app:app
-(for Windows: python -m uvicorn  app:app)
+```
+ - Запуск приложения (Windows)
+```bash
+python -m uvicorn  app:app
 ```
 
 ### Были использованы следующие готовые модели:
