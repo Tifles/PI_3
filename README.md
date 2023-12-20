@@ -16,7 +16,7 @@ uvicorn  app:app
 (for Windows: python -m uvicorn  app:app)
 ```
 #### The following ready-made models were used:
-Helsinki-NLP/opus-mt-en-ru
+Helsinki-NLP/opus-mt-en-ru     
 Helsinki-NLP/Opus-mt-ru-en
 
 @InProceedings{TiedemannThottingal:EAMT2020,
@@ -44,5 +44,5 @@ uvicorn  app:app
 ```
 
 ### Были использованы следующие готовые модели:
-Helsinki-NLP/opus-mt-en-ru
+Helsinki-NLP/opus-mt-en-ru    
 Helsinki-NLP/Opus-mt-ru-en
